@@ -1,5 +1,5 @@
 <template>
-    <div class="dv-scroll-board" :ref="ref">
+    <div class="scroll-board" :ref="ref">
         <div class="header" v-if="header.length && mergedConfig" :style="`background-color: ${mergedConfig.headerBGC};`">
             <div
                 class="header-item"
@@ -308,7 +308,7 @@ export default {
 </script>
 
 <style lang="less">
-.dv-scroll-board {
+.scroll-board {
     position: relative;
     width: 100%;
     height: 100%;
