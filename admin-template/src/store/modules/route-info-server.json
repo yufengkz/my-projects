@@ -1,0 +1,891 @@
+[
+  {
+
+    "name": "WhiteList",
+    "path": "/white-list",
+    "hidden": false,
+    "meta": {
+      "title": "白名单管理",
+      "icon": "sidebar-white-list"
+    },
+    "children": [
+      {
+
+        "name": "WhiteListEnterprise",
+        "path": "/white-list/enterprise",
+        "hidden": false,
+        "meta": {
+          "title": "白名单企业查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "WhiteListEnterpriseRecord",
+            "path": "/white-list/enterprise/record",
+            "hidden": true,
+            "meta": {
+              "title": "白名单联系人导入记录",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "WhiteListPushLog",
+        "path": "/white-list/push-log",
+        "hidden": false,
+        "meta": {
+          "title": "白名单推送记录",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "WhiteListPushLogRecord",
+            "path": "/white-list/push-log/record",
+            "hidden": true,
+            "meta": {
+              "title": "白名单企业导入记录",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+
+    "name": "NodeProcessing",
+    "path": "/node-processing",
+    "hidden": false,
+    "meta": {
+      "title": "节点处理",
+      "icon": "sidebar-bill"
+    },
+    "children": [
+      {
+
+        "name": "NodeProcessingCreditApplication",
+        "path": "/node-processing/credit-application",
+        "hidden": false,
+        "meta": {
+          "title": "授信申请材料",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingCreditApplicationDetail",
+            "path": "/node-processing/credit-application/detail",
+            "hidden": true,
+            "meta": {
+              "title": "授信申请材料详情",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "NodeProcessingCreditRating",
+        "path": "/node-processing/credit-rating",
+        "hidden": false,
+        "meta": {
+          "title": "授信评级录入",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingCreditRatingDetail",
+            "path": "/node-processing/credit-rating/detail",
+            "hidden": true,
+            "meta": {
+              "title": "授信评级录入详情",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "NodeProcessingGuaranteeContract",
+        "path": "/node-processing/guarantee-contract",
+        "hidden": false,
+        "meta": {
+          "title": "额度及保证合同",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingGuaranteeContractDetail",
+            "path": "/node-processing/guarantee-contract/detail",
+            "hidden": true,
+            "meta": {
+              "title": "额度及保证合同详情",
+              "icon": null
+            },
+            "children": null
+          },
+          {
+
+            "name": "NodeProcessingGuaranteeContractEditor",
+            "path": "/node-processing/guarantee-contract/editor",
+            "hidden": true,
+            "meta": {
+              "title": "额度及保证合同录入",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "NodeProcessingDisburseApplication",
+        "path": "/node-processing/disburse-application",
+        "hidden": false,
+        "meta": {
+          "title": "支用申请材料",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingDisburseApplicationDetail",
+            "path": "/node-processing/disburse-application/detail",
+            "hidden": true,
+            "meta": {
+              "title": "支用申请材料详情",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "NodeProcessingDisburseReply",
+        "path": "/node-processing/disburse-reply",
+        "hidden": false,
+        "meta": {
+          "title": "支用批复录入",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingDisburseReplyDetail",
+            "path": "/node-processing/disburse-reply/detail",
+            "hidden": true,
+            "meta": {
+              "title": "支用批复录入详情",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "NodeProcessingIouContract",
+        "path": "/node-processing/iou-contract",
+        "hidden": false,
+        "meta": {
+          "title": "借款借据录入",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingIouContractDetail",
+            "path": "/node-processing/iou-contract/detail",
+            "hidden": true,
+            "meta": {
+              "title": "借款借据录入详情",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "NodeProcessingLoanRepayment",
+        "path": "/node-processing/loan-repayment",
+        "hidden": false,
+        "meta": {
+          "title": "放款信息录入",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "NodeProcessingLoanRepaymentLoandetail",
+            "path": "/node-processing/loan-repayment/loanDetail",
+            "hidden": true,
+            "meta": {
+              "title": "放款录入详情",
+              "icon": null
+            },
+            "children": null
+          },
+          {
+
+            "name": "NodeProcessingLoanRepaymentRepaydetail",
+            "path": "/node-processing/loan-repayment/repayDetail",
+            "hidden": true,
+            "meta": {
+              "title": "还款计划录入详情",
+              "icon": null
+            },
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+
+    "name": "Registered",
+    "path": "/registered",
+    "hidden": false,
+    "meta": {
+      "title": "注册用户",
+      "icon": "sidebar-registered"
+    },
+    "children": [
+      {
+
+        "name": "RegisteredEnterpriseUser",
+        "path": "/registered/enterprise-user",
+        "hidden": false,
+        "meta": {
+          "title": "融资企业注册用户",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "RegisteredEnterpriseUserDetail",
+            "path": "/registered/enterprise-user/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资企业注册用户详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "RegisteredCertificationResult",
+        "path": "/registered/certification-result",
+        "hidden": false,
+        "meta": {
+          "title": "认证结果查询",
+          "icon": ""
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+
+    "name": "ServiceFee",
+    "path": "/service-fee",
+    "hidden": false,
+    "meta": {
+      "title": "服务费",
+      "icon": "sidebar-money"
+    },
+    "children": [
+      {
+
+        "name": "ServiceFeeSearch",
+        "path": "/service-fee/search",
+        "hidden": false,
+        "meta": {
+          "title": "服务费查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "ServiceFeeDetail",
+            "path": "/service-fee/detail",
+            "hidden": true,
+            "meta": {
+              "title": "缴纳详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "ServiceFeeManage",
+        "path": "/service-fee/manage",
+        "hidden": false,
+        "meta": {
+          "title": "服务费率管理",
+          "icon": ""
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+
+    "name": "Business",
+    "path": "/business",
+    "hidden": false,
+    "meta": {
+      "title": "业务查询",
+      "icon": "sidebar-business"
+    },
+    "children": [
+      {
+
+        "name": "BusinessEnterprise",
+        "path": "/business/enterprise",
+        "hidden": false,
+        "meta": {
+          "title": "融资企业查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "BusinessEnterpriseDetail",
+            "path": "/business/enterprise/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资企业详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "BusinessDesire",
+        "path": "/business/desire",
+        "hidden": false,
+        "meta": {
+          "title": "融资意愿查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "BusinessDesireDetail",
+            "path": "/business/desire/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资意愿详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "BusinessCredit",
+        "path": "/business/credit",
+        "hidden": false,
+        "meta": {
+          "title": "授信查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "BusinessCreditDetail",
+            "path": "/business/credit/detail",
+            "hidden": true,
+            "meta": {
+              "title": "授信详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+            "name": "BusinessGuaranteeContractDetail",
+            "path": "/business/credit/guaranteeContract/detail",
+            "hidden": true,
+            "meta": {
+              "title": "额度及保证合同详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "BusinessContract",
+        "path": "/business/contract",
+        "hidden": false,
+        "meta": {
+          "title": "合同查询",
+          "icon": ""
+        },
+        "children": null
+      },
+      {
+
+        "name": "BusinessOrder",
+        "path": "/business/order",
+        "hidden": false,
+        "meta": {
+          "title": "订单管理",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "BusinessOrderDetail",
+            "path": "/business/order/detail",
+            "hidden": true,
+            "meta": {
+              "title": "订单详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "BusinessOrderRecord",
+            "path": "/business/order/record",
+            "hidden": true,
+            "meta": {
+              "title": "订单导入记录",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+        "name": "BusinessDisburse",
+        "path": "/business/disburse",
+        "hidden": false,
+        "meta": {
+          "title": "支用查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "BusinessDisburseDetail",
+            "path": "/business/disburse/detail",
+            "hidden": true,
+            "meta": {
+              "title": "支用详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "BusinessLoanReceipt",
+        "path": "/business/loan-receipt",
+        "hidden": false,
+        "meta": {
+          "title": "借据查询",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "BusinessLoanReceiptDetail",
+            "path": "/business/loan-receipt/detail",
+            "hidden": true,
+            "meta": {
+              "title": "借据详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "BusinessLoanReceiptRepayDetail",
+            "path": "/business/loan-receipt/repay-detail",
+            "hidden": true,
+            "meta": {
+              "title": "还款计划详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "BusinessInviteCode",
+        "path": "/business/invite-code",
+        "hidden": false,
+        "meta": {
+          "title": "邀请码查询",
+          "icon": ""
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+
+    "name": "RiskWarn",
+    "path": "/risk-warn",
+    "hidden": false,
+    "meta": {
+      "title": "风险预警信息",
+      "icon": "sidebar-warning"
+    },
+    "children": [
+      {
+
+        "name": "RiskWarnWarningHandle",
+        "path": "/risk-warn/warning/handle",
+        "hidden": false,
+        "meta": {
+          "title": "贷后预警处理",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "RiskWarnWarningHandleDetail",
+            "path": "/risk-warn/warning/handle/detail",
+            "hidden": true,
+            "meta": {
+              "title": "贷后预警处理详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "RiskWarnWarningHandleView",
+            "path": "/risk-warn/warning/handle/view",
+            "hidden": true,
+            "meta": {
+              "title": "贷后预警查看详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "RiskWarnWarningApproval",
+        "path": "/risk-warn/warning/approval",
+        "hidden": false,
+        "meta": {
+          "title": "贷后预警审批",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "RiskWarnWarningApprovalDetail",
+            "path": "/risk-warn/warning/approval/detail",
+            "hidden": true,
+            "meta": {
+              "title": "贷后预警审批详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "RiskWarnWarningApprovalView",
+            "path": "/risk-warn/warning/approval/view",
+            "hidden": true,
+            "meta": {
+              "title": "贷后预警查看详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "RiskWarnWarningSearch",
+        "path": "/risk-warn/warning/search",
+        "hidden": false,
+        "meta": {
+          "title": "贷后预警查看",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "RiskWarnWarningDetail",
+            "path": "/risk-warn/warning/detail",
+            "hidden": true,
+            "meta": {
+              "title": "贷后预警查看详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "RiskWarnRiskHandle",
+        "path": "/risk-warn/risk/handle",
+        "hidden": false,
+        "meta": {
+          "title": "融资权限处理",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "RiskWarnRiskHandleDetail",
+            "path": "/risk-warn/risk/handle/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资权限处理详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+            "name": "RiskWarnRiskHandleView",
+            "path": "/risk-warn/risk/handle/view",
+            "hidden": true,
+            "meta": {
+              "title": "融资权限查看详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "RiskWarnRiskApproval",
+        "path": "/risk-warn/risk/approval",
+        "hidden": false,
+        "meta": {
+          "title": "融资权限审批",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "RiskWarnRiskApprovalDetail",
+            "path": "/risk-warn/risk/approval/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资权限审批详情",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "RiskWarnRiskApprovalView",
+            "path": "/risk-warn/risk/approval/view",
+            "hidden": true,
+            "meta": {
+              "title": "融资权限查看详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "RiskWarnRiskSearch",
+        "path": "/risk-warn/risk/search",
+        "hidden": false,
+        "meta": {
+          "title": "融资权限查看",
+          "icon": null
+        },
+        "children": [
+          {
+
+            "name": "RiskWarnRiskDetail",
+            "path": "/risk-warn/risk/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资权限查看详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+
+    "name": "CoreEnterprise",
+    "path": "/core-enterprise",
+    "hidden": false,
+    "meta": {
+      "title": "核心企业管理",
+      "icon": "sidebar-check"
+    },
+    "children": [
+      {
+
+        "name": "CoreEnterpriseStructure",
+        "path": "/core-enterprise/structure",
+        "hidden": false,
+        "meta": {
+          "title": "组织架构管理",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "CoreEnterpriseStructureRecord",
+            "path": "/core-enterprise/structure/record",
+            "hidden": true,
+            "meta": {
+              "title": "导入记录查询",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "CoreEnterpriseStructureDetail",
+            "path": "/core-enterprise/structure/detail",
+            "hidden": true,
+            "meta": {
+              "title": "组织架构详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "CoreEnterpriseSalesman",
+        "path": "/core-enterprise/salesman",
+        "hidden": false,
+        "meta": {
+          "title": "业务员管理",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "CoreEnterpriseSalesmanRecord",
+            "path": "/core-enterprise/salesman/record",
+            "hidden": true,
+            "meta": {
+              "title": "导入记录查询",
+              "icon": ""
+            },
+            "children": null
+          },
+          {
+
+            "name": "CoreEnterpriseSalesmanDetail",
+            "path": "/core-enterprise/salesman/detail",
+            "hidden": true,
+            "meta": {
+              "title": "业务员详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      },
+      {
+
+        "name": "CoreEnterpriseCustomer",
+        "path": "/core-enterprise/customer",
+        "hidden": false,
+        "meta": {
+          "title": "融资客户管理",
+          "icon": ""
+        },
+        "children": [
+          {
+
+            "name": "CoreEnterpriseCustomerRecord",
+            "path": "/core-enterprise/customer/record",
+            "hidden": true,
+            "meta": {
+              "title": "导入记录查询",
+              "icon": "导入记录查询"
+            },
+            "children": null
+          },
+          {
+
+            "name": "CoreEnterpriseCustomerDetail",
+            "path": "/core-enterprise/customer/detail",
+            "hidden": true,
+            "meta": {
+              "title": "融资客户详情",
+              "icon": ""
+            },
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+
+    "name": "UserManage",
+    "path": "/user-manage",
+    "hidden": false,
+    "meta": {
+      "title": "用户权限配置",
+      "icon": "sidebar-customer"
+    },
+    "children": [
+      {
+
+        "name": "UserManageUser",
+        "path": "/user-manage/user",
+        "hidden": false,
+        "meta": {
+          "title": "用户配置",
+          "icon": ""
+        },
+        "children": null
+      },
+      {
+
+        "name": "UserManageRole",
+        "path": "/user-manage/role",
+        "hidden": false,
+        "meta": {
+          "title": "权限配置",
+          "icon": ""
+        },
+        "children": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-404.000000, -150.000000)">
+            <g id="分组-30" transform="translate(404.000000, 150.000000)">
+                <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+                <g id="分组" transform="translate(3.000000, 5.000000)">
+                    <path d="M2.11764706,0 L15.8823529,0 C17.0518971,0 18,0.8954305 18,2 L18,11 C18,12.1045695 17.0518971,13 15.8823529,13 L2.11764706,13 C0.948102883,13 0,12.1045695 0,11 L0,2 C0,0.8954305 0.948102883,0 2.11764706,0 Z" id="矩形" fill="#0263FF"></path>
+                    <circle id="椭圆形" fill="#FFFFFF" cx="4.5" cy="6.5" r="1.5"></circle>
+                    <circle id="椭圆形" fill="#FFFFFF" cx="8.5" cy="6.5" r="1.5"></circle>
+                    <circle id="椭圆形" fill="#FFFFFF" cx="12.5" cy="6.5" r="1.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
