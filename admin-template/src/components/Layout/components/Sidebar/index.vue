@@ -4,6 +4,7 @@
             :show-timeout="200"
             :default-active="resolveActiveIndex"
             :collapse="isCollapse"
+            :unique-opened="true"
             mode="vertical"
             text-color="#C5D3E0"
             active-text-color="#FFFFFF"
