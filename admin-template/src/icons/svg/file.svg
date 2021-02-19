@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="22px" viewBox="0 0 18 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>分组 11</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-3文件上传" transform="translate(-547.000000, -362.000000)">
+            <rect fill="#F7F7F7" x="0" y="0" width="1440" height="900"></rect>
+            <rect id="Rectangle-122-Copy-10" fill="#FFFFFF" x="230" y="130" width="1180" height="763" rx="2"></rect>
+            <rect id="矩形" fill="#F7FAFF" x="528" y="355" width="586" height="51" rx="10"></rect>
+            <g id="分组-16" transform="translate(547.000000, 362.000000)">
+                <g id="分组-18">
+                    <g id="分组-11">
+                        <rect id="矩形" stroke-opacity="0.341768569" stroke="#8AB678" stroke-width="2" fill="#F3F8FE" x="1" y="1" width="16" height="20" rx="2"></rect>
+                        <rect id="矩形" stroke="#8AB678" x="0.5" y="0.5" width="17" height="21" rx="2"></rect>
+                        <rect id="矩形" fill="#8AB678" x="4" y="5" width="4" height="2"></rect>
+                        <rect id="矩形" fill="#8AB678" x="4" y="8" width="8" height="2"></rect>
+                        <rect id="矩形" fill="#8AB678" x="4" y="12" width="8" height="2"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
