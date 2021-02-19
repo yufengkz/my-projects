@@ -6,8 +6,12 @@
                 header
             </div>
             <div class="center">
-                <div class="left">left</div>
-                <div class="right">right</div>
+                <div class="left">
+                    left
+                </div>
+                <div class="right">
+                    right
+                </div>
             </div>
         </container>
     </div>
