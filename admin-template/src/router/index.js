@@ -15,35 +15,40 @@ Vue.use(Router)
   }
 **/
 export const constantRoutes = [
-  {
-    path: '/',
-    redirect: '/login'
-  },
-  {
-    path: '/404',
-    component: () => import('@/views/404')
-  },
-  /**
-   * 登录模块
-   */
-  {
-    path: '/login',
-    name: 'login',
-    component: () => import('@/views/login/index')
-  },
-  {
-    path: '/forget',
-    name: 'forget',
-    component: () => import('@/views/login/ForgetPwd')
-  }
+    {
+        path: '/',
+        redirect: '/login'
+    },
+    {
+        path: '/404',
+        component: () => import('@/views/404')
+    },
+    /**
+     * 登录模块
+     */
+    {
+        path: '/login',
+        name: 'login',
+        component: () => import('@/views/login/index')
+    },
+    {
+        path: '/forget',
+        name: 'forget',
+        component: () => import('@/views/login/ForgetPwd')
+    }
+    // {
+    //     path: '/register',
+    //     name: 'register',
+    //     component: () => import('@/views/login/Register')
+    // }
 ]
 
 // export const routes = constantRoutes.concat(debtorRouter, financingRouter, factoringRouter)
 export const routesArr = constantRoutes.concat(routes)
 
 export default new Router({
-  mode: 'history',
-  // base: 'industrial',
-  scrollBehavior: () => ({ y: 0 }),
-  routes: routesArr
+    mode: 'history',
+    // base: 'industrial',
+    scrollBehavior: () => ({ y: 0 }),
+    routes: routesArr
 })

@@ -1,67 +1,67 @@
 //to reset element-ui default css
 .el-upload {
-  input[type="file"] {
-    display: none !important;
-  }
+    input[type='file'] {
+        display: none !important;
+    }
 }
 
 .el-upload__input {
-  display: none;
+    display: none;
 }
 
 //暂时性解决diolag 问题 https://github.com/ElemeFE/element/issues/2461
 .el-dialog {
-  transform: none;
-  left: 0;
-  position: relative;
-  margin: 0 auto;
+    transform: none;
+    left: 0;
+    position: relative;
+    margin: 0 auto;
 }
 
 //element ui upload
 .upload-container {
-  .el-upload {
-    width: 100%;
+    .el-upload {
+        width: 100%;
 
-    .el-upload-dragger {
-      width: 100%;
-      height: 200px;
+        .el-upload-dragger {
+            width: 100%;
+            height: 200px;
+        }
     }
-  }
 }
 
-$color-blue: #1465EA; //用于button的蓝色 以及字体颜色蓝色
+$color-blue: #1465ea; //用于button的蓝色 以及字体颜色蓝色
 $color-white: #fff; //字体等颜色白色
 
 // 取消按钮el-button type=“info”
 .el-button--info {
-  background-color: $color-white;
-  border: 1px $color-blue solid;
-  color: $color-blue;
+    background-color: $color-white;
+    border: 1px $color-blue solid;
+    color: $color-blue;
 }
 
 .el-button--info:hover,
 .el-button--info:focus {
-  background-color: $color-white;
-  border: 1px $color-blue solid;
-  color: $color-blue;
+    background-color: $color-white;
+    border: 1px $color-blue solid;
+    color: $color-blue;
 }
 
 //确定等按钮el-button type=“primary”
 .el-button--primary {
-  background: $color-blue;
-  color: $color-white;
-  border-color: $color-blue;
+    background: $color-blue;
+    color: $color-white;
+    border-color: $color-blue;
 }
 
 .el-button--primary:hover,
 .el-button--primary:focus {
-  background: $color-blue;
-  color: $color-white;
-  border-color: $color-blue;
+    background: $color-blue;
+    color: $color-white;
+    border-color: $color-blue;
 }
-// el-button small 的大小为14px
-.el-button--small{
-  font-size: 14px;
+// el-button mini 的大小为14px
+.el-button--mini {
+    font-size: 14px;
 }
 
 // proxima按钮样式
@@ -84,94 +84,94 @@ $color-white: #fff; //字体等颜色白色
 .el-pagination.is-background .btn-next,
 .el-pagination.is-background .btn-prev,
 .el-pagination.is-background .el-pager li {
-  margin: 0 5px;
-  background-color: $color-white;
-  color: #606266;
-  min-width: 30px;
-  border-radius: 2px;
-  border: 1px #dcdfe6 solid;
+    margin: 0 5px;
+    background-color: $color-white;
+    color: #606266;
+    min-width: 30px;
+    border-radius: 2px;
+    border: 1px #dcdfe6 solid;
 }
 
 .el-pagination.is-background .el-pager li:not(.disabled).active {
-  background-color: $color-blue;
-  color: $color-white;
-  border: 1px $color-blue solid;
+    background-color: $color-blue;
+    color: $color-white;
+    border: 1px $color-blue solid;
 }
 
-.el-pagination--small {
-  .el-input--mini .el-input__inner {
-    height: 22px;
-    line-height: 22px;
-  }
+.el-pagination--mini {
+    .el-input--mini .el-input__inner {
+        height: 22px;
+        line-height: 22px;
+    }
 
-  .el-input--mini .el-input__icon {
-    line-height: 22px;
-  }
+    .el-input--mini .el-input__icon {
+        line-height: 22px;
+    }
 
-  .el-pagination__jump {
-    margin-left: 0;
-  }
+    .el-pagination__jump {
+        margin-left: 0;
+    }
 }
 
 /* 覆盖原样式，table 文字居中 */
 .el-table {
-  tr th {
-    background: #f8fcff;
-    text-align: center;
-  }
+    tr th {
+        background: #f8fcff;
+        text-align: center;
+    }
 
-  tr td {
-    text-align: center;
-  }
+    tr td {
+        text-align: center;
+    }
 }
 
 /* 覆盖原样式，使el-select和el-cascader宽度自适应 */
 .block-el-select {
-  .el-select, .el-cascader {
-    display: block;
-  }
+    .el-select,
+    .el-cascader {
+        display: block;
+    }
 }
 
 /* fix chrome中表格表头对不齐 */
-.el-table__header colgroup col[name="gutter"] {
-  display: none;
+.el-table__header colgroup col[name='gutter'] {
+    display: none;
 }
 
 /* 去掉输入框label标签加粗 */
 .el-form-item__label {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 /* 根据产品设计，使下拉框最多显示五条，超出后显示滚动条 */
 .el-select-dropdown__list {
-  max-height: 182px;
-  overflow-y: auto;
+    max-height: 182px;
+    overflow-y: auto;
 }
 
 /* 分割线上下间隔调整 */
 .el-divider--horizontal {
-  margin: 20px 0 30px;
+    margin: 20px 0 30px;
 }
 
 /* 流转记录最右侧内容，最右侧小点去除 */
 .el-step__line-inner {
-  border-width: 0px;
+    border-width: 0px;
 }
 
 /* 缩略图上传组件使用时，如果是查看用，隐藏最后的添加按钮 */
 .upload-view {
-  .el-upload--picture-card {
-    display: none;
-  }
+    .el-upload--picture-card {
+        display: none;
+    }
 }
 
 /* 图片预览弹窗在页面中居中布局 */
 .img-dialog {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  .el-dialog {
-    margin-top: 0 !important;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .el-dialog {
+        margin-top: 0 !important;
+    }
 }
-
