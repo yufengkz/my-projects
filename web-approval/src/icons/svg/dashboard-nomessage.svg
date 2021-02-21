@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="85px" viewBox="0 0 81 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>分组 42</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FBFDFF" offset="0%"></stop>
+            <stop stop-color="#CDE7FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M51.5,4.04145188 L76.0381305,18.2085481 C80.3697455,20.7094072 83.0381305,25.3311855 83.0381305,30.3329038 L83.0381305,58.6670962 C83.0381305,63.6688145 80.3697455,68.2905928 76.0381305,70.7914519 L51.5,84.9585481 C47.1683849,87.4594072 41.8316151,87.4594072 37.5,84.9585481 L12.9618695,70.7914519 C8.63025446,68.2905928 5.96186953,63.6688145 5.96186953,58.6670962 L5.96186953,30.3329038 C5.96186953,25.3311855 8.63025446,20.7094072 12.9618695,18.2085481 L37.5,4.04145188 C41.8316151,1.54059275 47.1683849,1.54059275 51.5,4.04145188 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页-融资人-经办-暂无消息" transform="translate(-489.000000, -1068.000000)">
+            <g id="分组-43" transform="translate(484.000000, 1066.000000)">
+                <g id="分组-42">
+                    <g id="分组-41">
+                        <g id="矩形">
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                            <rect fill="#B4D2FF" mask="url(#mask-3)" x="13" y="30" width="58" height="50" rx="5"></rect>
+                            <path d="M51.4824466,78.114331 L33.6539838,90.1960483 L37.6049941,78.114331 L23,78.114331 C20.2385763,78.114331 18,75.8757548 18,73.114331 L18,40 C18,37.2385763 20.2385763,35 23,35 L71,35 C73.7614237,35 76,37.2385763 76,40 L76,73.114331 C76,75.8757548 73.7614237,78.114331 71,78.114331 L51.4824466,78.114331 Z" id="合并形状" fill="#5EA3FF" mask="url(#mask-3)"></path>
+                        </g>
+                        <circle id="椭圆形" stroke="#2A87FF" fill="#FFFFFF" cx="10" cy="21" r="4"></circle>
+                        <circle id="椭圆形" stroke="#2A87FF" fill="#FFFFFF" cx="83" cy="33" r="2"></circle>
+                    </g>
+                    <rect id="矩形" fill="#FFFFFF" x="33" y="47" width="26" height="4" rx="2"></rect>
+                    <rect id="矩形" fill="#FFFFFF" x="33" y="60" width="26" height="4" rx="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,577 @@
+/**
+ * ZWRUN  债务人经办路由
+ * ZWAUDIT  债务人复核路由
+ * RZRUN  融资人经办路由
+ * RZAUDIT  融资人复核路由
+ * YEWU  保理业务路由
+ * RISK  保理风控路由
+ */
+
+export const routeInfo = {
+  // 债务人经办路由
+  ZWRUN: [
+    {
+      path: '/debtor-dashboard',
+      meta: {
+        icon: 'sidebar-dashboard',
+        title: '数据看板'
+      },
+      children: [
+        {
+          path: '/message/notice',
+          hidden: true
+        },
+        {
+          path: '/message/backlog',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/debtor-handling-contract/search',
+      meta: {
+        icon: 'sidebar-check',
+        title: '合同初审'
+      },
+      children: [
+        {
+          path: '/debtor-handling-contract/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/debtor-receivable/search',
+      meta: {
+        icon: 'sidebar-money',
+        title: '应付账款查询'
+      },
+      children: [
+        {
+          path: '/debtor-receivable/detail',
+          hidden: true
+        }
+      ]
+    }
+  ],
+
+  // 债务人复核路由
+  ZWAUDIT: [
+    {
+      path: '/debtor-dashboard',
+      meta: {
+        icon: 'sidebar-dashboard',
+        title: '数据看板'
+      },
+      children: [
+        {
+          path: '/message/notice',
+          hidden: true
+        },
+        {
+          path: '/message/backlog',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/debtor-recheck-contract/search',
+      meta: {
+        icon: 'sidebar-sign',
+        title: '合同签署'
+      },
+      children: [
+        {
+          path: '/debtor-recheck-contract/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/debtor-receivable/search',
+      meta: {
+        icon: 'sidebar-money',
+        title: '应付账款查询'
+      },
+      children: [
+        {
+          path: '/debtor-receivable/detail',
+          hidden: true
+        }
+      ]
+    }
+  ],
+
+  // 融资人经办路由
+  RZRUN: [
+    {
+      path: '/financier-dashboard',
+      meta: {
+        icon: 'sidebar-dashboard',
+        title: '数据看板'
+      },
+      children: [
+        {
+          path: '/message/notice',
+          hidden: true
+        },
+        {
+          path: '/message/backlog',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/financier-handling-contract/search',
+      meta: {
+        icon: 'sidebar-check',
+        title: '合同初审'
+      },
+      children: [
+        {
+          path: '/financier-handling-contract/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/financier-receivable/search',
+      meta: {
+        icon: 'sidebar-receivable',
+        title: '应收账款查询'
+      },
+      children: [
+        {
+          path: '/financier-receivable/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/financier-transaction/search',
+      meta: {
+        icon: 'sidebar-deal',
+        title: '交易查询'
+      },
+      children: [
+        {
+          path: '/financier-transaction/detail',
+          hidden: true
+        }
+      ]
+    }
+  ],
+
+  // 融资人复核路由
+  RZAUDIT: [
+    {
+      path: '/financier-dashboard',
+      meta: {
+        icon: 'sidebar-dashboard',
+        title: '数据看板'
+      },
+      children: [
+        {
+          path: '/message/notice',
+          hidden: true
+        },
+        {
+          path: '/message/backlog',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/financier-recheck-contract/search',
+      meta: {
+        icon: 'sidebar-sign',
+        title: '合同签署'
+      },
+      children: [
+        {
+          path: '/financier-recheck-contract/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/financier-receivable/search',
+      meta: {
+        icon: 'sidebar-receivable',
+        title: '应收账款查询'
+      },
+      children: [
+        {
+          path: '/financier-receivable/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/financier-transaction/search',
+      meta: {
+        icon: 'sidebar-deal',
+        title: '交易查询'
+      },
+      children: [
+        {
+          path: '/financier-transaction/detail',
+          hidden: true
+        }
+      ]
+    }
+  ],
+
+  // 保理业务路由
+  YEWU: [
+    {
+      path: '/factoring-dashboard',
+      meta: {
+        icon: 'sidebar-dashboard',
+        title: '数据看板'
+      },
+      children: [
+        {
+          path: '/message/notice',
+          hidden: true
+        },
+        {
+          path: '/message/backlog',
+          hidden: true
+        },
+        {
+          path: '/message/warning',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-business-customer/search',
+      meta: {
+        icon: 'sidebar-customer',
+        title: '客户管理'
+      },
+      children: [
+        {
+          path: '/factoring-business-customer/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-business-acceptor/search',
+      meta: {
+        icon: 'sidebar-acceptor',
+        title: '承兑人管理'
+      },
+      children: [
+        {
+          path: '/factoring-business-acceptor/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-business-bill/search',
+      meta: {
+        icon: 'sidebar-bill',
+        title: '票据管理'
+      },
+      children: [
+        {
+          path: '/factoring-business-bill/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-invoice',
+      meta: {
+        icon: 'sidebar-invoice',
+        title: '发票管理'
+      },
+      children: [
+        {
+          path: '/factoring-invoice/handling',
+          meta: {
+            icon: 'sidebar-invoice-handling',
+            title: '发票信息维护'
+          },
+          children: [
+            {
+              path: '/factoring-invoice/handling/detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-invoice/statistics',
+          name: 'factoringInvoiceStatistics',
+          meta: {
+            icon: 'sidebar-invoice-statistics',
+            title: '发票验真统计'
+          }
+        }
+      ]
+    },
+    {
+      path: '/factoring-business-receivable',
+      meta: {
+        icon: 'sidebar-manage',
+        title: '应收账款管理'
+      },
+      children: [
+        {
+          path: '/factoring-business-receivable/maintain-search',
+          meta: {
+            icon: 'sidebar-money',
+            title: '应收账款维护'
+          },
+          children: [
+            {
+              path: '/factoring-business-receivable/maintain-handling',
+              hidden: true
+            },
+            {
+              path: '/factoring-business-receivable/maintain-detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-business-receivable/contract-upload',
+          meta: {
+            icon: 'sidebar-upload',
+            title: '合同上传'
+          },
+          children: [
+            {
+              path: '/factoring-business-receivable/contract-upload-detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-contract-sign/search',
+          meta: {
+            icon: 'sidebar-sign',
+            title: '合同签署'
+          },
+          children: [
+            {
+              path: '/factoring-contract-sign/detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-receivable/search',
+          meta: {
+            icon: 'sidebar-receivable',
+            title: '应收账款查询'
+          },
+          children: [
+            {
+              path: '/factoring-receivable/detail',
+              hidden: true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      path: '/factoring-transaction/search',
+      meta: {
+        icon: 'sidebar-deal',
+        title: '交易查询'
+      },
+      children: [
+        {
+          path: '/factoring-transaction/detail',
+          hidden: true
+        }
+      ]
+    }
+  ],
+
+  // 保理风控路由
+  RISK: [
+    {
+      path: '/factoring-dashboard',
+      meta: {
+        icon: 'sidebar-dashboard',
+        title: '数据看板'
+      },
+      children: [
+        {
+          path: '/message/notice',
+          hidden: true
+        },
+        {
+          path: '/message/backlog',
+          hidden: true
+        },
+        {
+          path: '/message/warning',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-risk-ctrl-customer/search',
+      meta: {
+        icon: 'sidebar-customer',
+        title: '客户查询'
+      },
+      children: [
+        {
+          path: '/factoring-risk-ctrl-customer/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-risk-ctrl-acceptor/search',
+      meta: {
+        icon: 'sidebar-acceptor',
+        title: '承兑人查询'
+      },
+      children: [
+        {
+          path: '/factoring-risk-ctrl-acceptor/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-risk-ctrl-bill/search',
+      meta: {
+        icon: 'sidebar-bill',
+        title: '票据查询'
+      },
+      children: [
+        {
+          path: '/factoring-risk-ctrl-bill/detail',
+          hidden: true
+        }
+      ]
+    },
+    {
+      path: '/factoring-invoice',
+      meta: {
+        icon: 'sidebar-invoice',
+        title: '发票管理'
+      },
+      children: [
+        {
+          path: '/factoring-invoice/search',
+          meta: {
+            icon: 'sidebar-invoice-search',
+            title: '发票查询'
+          },
+          children: [
+            {
+              path: '/factoring-invoice/search/detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-invoice/statistics',
+          name: 'factoringInvoiceStatistics',
+          meta: {
+            icon: 'sidebar-invoice-statistics',
+            title: '发票验真统计'
+          }
+        }
+      ]
+    },
+    {
+      path: '/factoring-risk-ctrl-receivable',
+      meta: {
+        icon: 'sidebar-manage',
+        title: '应收账款管理'
+      },
+      children: [
+        {
+          path: '/factoring-risk-ctrl-receivable/receivable-search',
+          meta: {
+            icon: 'sidebar-money',
+            title: '应收账款复核'
+          },
+          children: [
+            {
+              path: '/factoring-risk-ctrl-receivable/receivable-recheck',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-risk-ctrl-receivable/contract-check',
+          meta: {
+            icon: 'sidebar-check',
+            title: '合同审核'
+          },
+          children: [
+            {
+              path: '/factoring-risk-ctrl-receivable/contract-check-detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-contract-sign/search',
+          meta: {
+            icon: 'sidebar-sign',
+            title: '合同签署'
+          },
+          children: [
+            {
+              path: '/factoring-contract-sign/detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-risk-ctrl-receivable/receipt-search',
+          meta: {
+            icon: 'sidebar-receipt',
+            title: '回执确认'
+          },
+          children: [
+            {
+              path: '/factoring-risk-ctrl-receivable/receipt-detail',
+              hidden: true
+            }
+          ]
+        },
+        {
+          path: '/factoring-receivable/search',
+          meta: {
+            icon: 'sidebar-receivable',
+            title: '应收账款查询'
+          },
+          children: [
+            {
+              path: '/factoring-receivable/detail',
+              hidden: true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      path: '/factoring-transaction/search',
+      meta: {
+        icon: 'sidebar-deal',
+        title: '交易查询'
+      },
+      children: [
+        {
+          path: '/factoring-transaction/detail',
+          hidden: true
+        }
+      ]
+    }
+  ]
+}

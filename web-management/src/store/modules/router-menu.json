@@ -1,0 +1,172 @@
+[
+  {
+    "name": "MapCenter",
+    "path": "/map",
+    "hidden": false,
+    "meta": { "icon": "sidebar-map", "title": "MAP中心管理" },
+    "children": [
+      {
+        "name": "MAPList",
+        "path": "/map/edit",
+        "hidden": true,
+        "meta": { "title": "新增", "icon": "" },
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "CosignerManage",
+    "path": "/cosigner-manage",
+    "hidden": false,
+    "meta": { "icon": "sidebar-customer", "title": "担保管理" },
+    "children": [
+      {
+        "name": "CosignerManageNatural",
+        "path": "/cosigner-manage/natural",
+        "hidden": false,
+        "meta": { "title": "自然人担保" },
+        "children": [
+          {
+            "name": "CosignerManageNaturalAdd",
+            "path": "/cosigner-manage/natural/add",
+            "hidden": true,
+            "meta": { "title": "新增" },
+            "children": null
+          },
+          {
+            "name": "CosignerManageNaturalDetail",
+            "path": "/cosigner-manage/natural/detail",
+            "hidden": true,
+            "meta": { "title": "详情" },
+            "children": null
+          }
+        ]
+      },
+      {
+        "name": "CosignerManageLegal",
+        "path": "/cosigner-manage/legal",
+        "hidden": false,
+        "meta": { "title": "法人担保", "icon": "" },
+        "children": [
+          {
+            "name": "CosignerManageLegalAdd",
+            "path": "/cosigner-manage/legal/add",
+            "hidden": true,
+            "meta": { "title": "新增" },
+            "children": null
+          },
+          {
+            "name": "CosignerManageLegalDetail",
+            "path": "/cosigner-manage/legal/detail",
+            "hidden": true,
+            "meta": { "title": "详情" },
+            "children": null
+          }
+        ]
+      },
+      {
+        "name": "CosignerManageInstitution",
+        "path": "/cosigner-manage/institution",
+        "hidden": true,
+        "meta": { "title": "合作机构担保" },
+        "children": [
+          {
+            "name": "CosignerManageInstitutionAdd",
+            "path": "/cosigner-manage/institution/add",
+            "hidden": true,
+            "meta": { "title": "新增" },
+            "children": null
+          },
+          {
+            "name": "CosignerManageInstitutionDetail",
+            "path": "/cosigner-manage/institution/detail",
+            "hidden": true,
+            "meta": { "title": "详情" },
+            "children": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Roster",
+    "path": "/roster",
+    "hidden": false,
+    "meta": { "icon": "sidebar-roster", "title": "名单管理" },
+    "children": null
+  },
+  {
+    "name": "LoanApply",
+    "path": "/loan-apply",
+    "hidden": false,
+    "meta": { "icon": "sidebar-loan", "title": "借款产品管理" },
+    "children": [
+      {
+        "name": "LoanApplyIndex",
+        "path": "/loan-apply/add",
+        "hidden": true,
+        "meta": { "title": "", "icon": "" },
+        "children": null
+      },
+      {
+        "name": "LoanApplyEdit",
+        "path": "/loan-apply/edit",
+        "hidden": true,
+        "meta": { "title": "" },
+        "children": null
+      },
+      {
+        "name": "LoanApplyDetail",
+        "path": "/loan-apply/detail",
+        "hidden": true,
+        "meta": { "title": "详情" },
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "Orders",
+    "path": "/orders",
+    "hidden": false,
+    "meta": { "icon": "sidebar-orders", "title": "订单流转审批" },
+    "children": [
+      { "name": "OrdersEdit", "path": "/orders/edit", "hidden": true, "meta": { "title": "编辑" }, "children": null }
+    ]
+  },
+  {
+    "name": "Business",
+    "path": "/business",
+    "hidden": false,
+    "meta": { "icon": "sidebar-business", "title": "业务中心" },
+    "children": [
+      {
+        "name": "BusinessDetail",
+        "path": "/business/detail",
+        "hidden": true,
+        "meta": { "title": "业务详情" },
+        "children": null
+      }
+    ]
+  },
+  {
+    "name": "Customer",
+    "path": "/customer",
+    "hidden": false,
+    "meta": { "icon": "sidebar-customer", "title": "客户管理" },
+    "children": null
+  },
+  {
+    "name": "UserManageUser",
+    "path": "/user-manage/user",
+    "hidden": false,
+    "meta": { "icon": "sidebar-user-setting", "title": "运营人员设置" },
+    "children": null
+  },
+  {
+    "name": "UserManageRole",
+    "path": "/user-manage/role",
+    "hidden": false,
+    "meta": { "icon": "sidebar-role-setting", "title": "运营角色设置" },
+    "children": null
+  }
+]

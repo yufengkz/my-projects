@@ -1,0 +1,217 @@
+#app {
+  // 主体区域
+  .main-container {
+    min-height: 100%;
+    transition: margin-left 0.28s;
+    margin-left: $sidebar-width;
+    position: relative;
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      right: 0;
+      z-index: 9;
+      width: calc(100% - 236px);
+      -webkit-transition: width 0.28s;
+      transition: width 0.28s;
+    }
+  }
+
+  // 侧边栏
+  .sidebar-container {
+    transition: width 0.28s;
+    width: $sidebar-width !important;
+    height: 100%;
+    position: fixed;
+    font-size: 0px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1001;
+    overflow: hidden;
+
+    //reset element-ui css
+    .horizontal-collapse-transition {
+      transition: 0s width ease-in-out, 0s padding-left ease-in-out, 0s padding-right ease-in-out;
+    }
+
+    .el-scrollbar__bar.is-vertical {
+      right: 0px;
+    }
+
+    .scrollbar-wrapper {
+      overflow-x: hidden !important;
+
+      .el-scrollbar__view {
+        height: 100%;
+      }
+    }
+
+    .is-horizontal {
+      display: none;
+    }
+
+    a {
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .svg-icon {
+      width: 22px;
+      height: 22px;
+      vertical-align: middle;
+      margin-right: 16px;
+    }
+
+    .el-menu {
+      border: none;
+      height: 100%;
+      width: 100% !important;
+    }
+
+    // .is-active>.el-submenu__title {
+    //   color: #f4f4f5 !important;
+    // }
+  }
+
+  .hideSidebar {
+    .sidebar-container {
+      width: 36px !important;
+    }
+
+    .main-container {
+      margin-left: 36px;
+      .fixed-header {
+        width: calc(100% - 36px);
+      }
+    }
+
+    .submenu-title-noDropdown {
+      padding-left: 10px !important;
+      position: relative;
+
+      .el-tooltip {
+        padding: 0 5px !important;
+      }
+    }
+
+    .el-submenu {
+      overflow: hidden;
+
+      & > .el-submenu__title {
+        padding-left: 6px !important;
+
+        .el-submenu__icon-arrow {
+          display: none;
+        }
+      }
+    }
+
+    .el-menu--collapse {
+      .el-submenu {
+        & > .el-submenu__title {
+          & > span {
+            height: 0;
+            width: 0;
+            overflow: hidden;
+            visibility: hidden;
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+
+  // 子菜单没有icon时，额外向右偏移（默认为40px）
+  .sidebar-container .el-submenu .el-menu-item {
+    padding-left: 72px !important;
+  }
+
+  .sidebar-container .el-menu-item,
+  .sidebar-container .el-submenu .el-menu-item,
+  .sidebar-container .el-submenu > .el-submenu__title,
+  .sidebar-container .nest-menu .el-submenu > .el-submenu__title {
+    background-color: $subMenuBg;
+
+    &:hover {
+      background-color: $menuHover !important;
+    }
+
+    // &:focus {
+    //   background-color: $menuFocus !important;
+    // }
+    &.is-active {
+      background-color: $menuFocus !important;
+      font-weight: bold;
+      &::before {
+        content: '';
+        position: absolute;
+        right: 0px;
+        height: 100%;
+        border-left: solid 3px #05b546;
+      }
+    }
+    // &.is-opened {
+    //   background-color: $menuFocus !important;
+    // }
+  }
+
+  .sidebar-container .el-menu.el-menu--collapse .el-submenu.is-active > .el-submenu__title {
+    background-color: $menuFocus !important;
+  }
+
+  //适配移动端
+  .mobile {
+    .main-container {
+      margin-left: 0px;
+      .fixed-header {
+        width: 100% !important;
+      }
+    }
+
+    .sidebar-container {
+      transition: transform 0.28s;
+      width: 236px !important;
+    }
+
+    &.hideSidebar {
+      .sidebar-container {
+        transition-duration: 0.3s;
+        transform: translate3d(-236px, 0, 0);
+      }
+    }
+  }
+
+  .withoutAnimation {
+    .main-container,
+    .sidebar-container {
+      transition: none;
+    }
+  }
+}
+
+.el-menu--vertical {
+  & > .el-menu {
+    .svg-icon {
+      width: 22px;
+      height: 22px;
+      vertical-align: middle;
+      margin-right: 16px;
+    }
+
+    .el-menu-item {
+      background-color: $subMenuBg;
+
+      &:hover {
+        background-color: $menuHover !important;
+      }
+
+      // &:focus {
+      //   background-color: $menuFocus !important;
+      // }
+      &.is-active {
+        background-color: $menuFocus !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="31px" viewBox="0 0 31 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <!-- <title>分组 23</title> -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="13.7534122%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00DA6C" offset="0%"></stop>
+            <stop stop-color="#00C256" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="角色" transform="translate(-872.000000, -599.000000)">
+            <g id="分组-40" transform="translate(872.000000, 599.000000)">
+                <g id="分组-23" transform="translate(1.000000, 1.000000)">
+                    <g id="分组-14" transform="translate(0.084285, 0.068747)" fill="url(#linearGradient-1)" stroke="#FFFFFF" stroke-width="2">
+                        <g id="分组-3">
+                            <ellipse id="椭圆形" cx="14.4068841" cy="14.3918773" rx="14.4068841" ry="14.3918773"></ellipse>
+                        </g>
+                    </g>
+                    <g id="分组-22" transform="translate(14.146029, 12.718763) rotate(-315.000000) translate(-14.146029, -12.718763) translate(9.329728, 4.012373)" fill="#FFFFFF">
+                        <rect id="矩形" x="0.0918472735" y="15.1935302" width="9.36447468" height="2.1587816" rx="1.0793908"></rect>
+                        <path d="M0.821195548,7.63666905 L15.9304157,7.63666905 C16.5271684,7.63666905 17.0109321,8.12043268 17.0109321,8.71718536 L17.0109321,8.71718536 C17.0109321,9.31393804 16.5271684,9.79770167 15.9304157,9.79770167 L0.821195548,9.79770167 C0.224442868,9.79770167 -0.259320762,9.31393804 -0.259320762,8.71718536 L-0.259320762,8.71718536 C-0.259320762,8.12043268 0.224442868,7.63666905 0.821195548,7.63666905 Z" id="矩形" transform="translate(8.375806, 8.717185) rotate(-90.000000) translate(-8.375806, -8.717185) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

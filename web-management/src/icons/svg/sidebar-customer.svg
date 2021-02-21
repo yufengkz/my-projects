@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>矩形</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0016346516 15.995557 0.0016346516 15.995557 7.46665612 0 7.46665612"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-374.000000, -685.000000)">
+            <g id="客户管理-点击" transform="translate(374.000000, 685.000000)">
+                <rect id="矩形" x="0" y="0" width="20" height="20"></rect>
+                <g id="ICON" transform="translate(2.000000, 2.000000)">
+                    <path d="M4.26666667,3.73333333 C4.26666667,5.79519901 5.93813651,7.46666667 7.99995833,7.46666667 C10.0618843,7.46666667 11.7333333,5.79519901 11.7333333,3.73333333 C11.7333333,1.67146766 10.0618843,0 7.99995833,0 C5.93813651,0 4.26666667,1.67146766 4.26666667,3.73333333" id="Fill-1" fill="#08B347"></path>
+                    <g id="分组" transform="translate(0.000000, 8.533333)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-4"></g>
+                        <path d="M7.99772162,6.38675254 L6.62848312,5.09246704 L7.99772162,1.2064467 L9.36707169,5.09419661 L7.99772162,6.38675254 Z M9.26707727,0.0016346516 L7.99772162,1.20142674 L6.72847755,0.0016346516 C2.9152781,0.5770742 -2.23152022e-06,3.70037665 -2.23152022e-06,7.46665612 L15.995557,7.46665612 C15.995557,3.70037665 13.0802767,0.5770742 9.26707727,0.0016346516 L9.26707727,0.0016346516 Z" id="Fill-3" fill="#08B347" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
